@@ -1,0 +1,24 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.1.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-added-large-files
+      - id: detect-private-key
+      - id: detect-aws-credentials
+      - id: destroyed-symlinks
+      - id: check-merge-conflict
+  - repo: https://github.com/adrienverge/yamllint
+    rev: v1.26.3
+    hooks:
+      - id: yamllint
+  - repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: 2a1a122656549317f4e92dc8ccc7e27e8b6d259b
+    hooks:
+      - id: markdownlint-docker
+      - id: markdownlint-fix-docker
+  - repo: https://github.com/antonbabenko/pre-commit-terraform
+    rev: v1.64.0
+    hooks:
+      - id: terraform_fmt
