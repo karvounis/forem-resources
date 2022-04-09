@@ -1,3 +1,3 @@
 # Forem resources
 
-This repo holds the ForemAsCode (FaC) personal resources.
+This repo contains the Forem as Code (FaC) personal resources.
