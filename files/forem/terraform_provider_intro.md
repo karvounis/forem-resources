@@ -39,7 +39,9 @@ Imagine having way more articles maintained by Terraform and you need to remove 
 
 ## Conclusion
 
-I really hope that this provider is going to help all people using **Forem**. In fact, this very article has been generated using this provider. I welcome any contributions to the provider and I would appreciate any feedback in the comments section!
+I really hope that this provider is going to help all people using **Forem**. In fact, this very article has been generated using this provider! You do not believe me? Check the Terraform [article resource](https://github.com/karvounis/forem-resources/blob/master/articles_forem.tf#L1-L7) and the actual [Markdown file](https://github.com/karvounis/forem-resources/blob/master/files/forem/terraform_provider_intro.md)! :wink:
+
+Any contributions to the provider are welcome and I would appreciate any feedback in the comments section!
 
 ## Useful links
 
