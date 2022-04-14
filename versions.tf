@@ -2,7 +2,7 @@ terraform {
   required_providers {
     forem = {
       source  = "karvounis/forem"
-      version = "0.1.1"
+      version = "1.0.1"
     }
   }
 }
